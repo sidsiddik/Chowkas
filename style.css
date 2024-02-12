@@ -1,12 +1,11 @@
-
-
 nav{
     background-image: linear-gradient(to right, lightblue, rgb(67, 67, 246), rgb(19, 19, 172)) ;
     width: 100%;
     background-size: cover;
     padding: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     display: flex; 
     animation: fade-right 1s ease-in-out forwards;
 }
@@ -21,57 +20,12 @@ nav{
     }
     
 }
-.buttons-organizing{
-    display: flex;
-    justify-items:center;
-    flex-wrap: wrap;
-    margin-left: 40px;
-    margin-top: 40px;
-}
-
-.button{
-    width: 150px;
-    height: 40px;
-    padding: 5px;
-    background-color: rgb(11, 11, 60);
+#link-styling{
     color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border: 2px solid white;
-    border-left-width: 0px;
-    border-right-width: 0px;
-    margin-bottom: 20px;
-    margin-right: 10px;
+    border-bottom:white ;
 }
-.img-styling{
-    width: 150px;
-    height: 150px;
-    border-radius: 4px;
-}
-.user-profile{
-    text-align: center;
-    color: white;
-    font-size: x-large;
-    font-family: 'Times New Roman', Times, serif;
-    margin: 5px;
-    border-right: 1px dotted white;
-}
-.icon-style{
-    margin-left: 8px;
-    transform: translateY(1px);
-}
-h1{
-    color:blue;
-}
-.btn{
-    width: 150px;
-    height: 40px;
-    padding: 5px;
-    background-color: red;
-    color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border: 2px solid white;
-    border-left-width: 0px;
-    border-right-width: 0px;
-    margin-bottom: 20px;
-    margin-right: 10px;
+li>a:hover{
+    border-bottom: 3px solid white;
+    transition: all 0.3s ease-in-out;
+    transform: translateX(3px);
 }
